@@ -78,7 +78,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow: auto;
-    /* padding: 150px !important; */
+    padding: 150px !important;
 }
 
 .collection_big_box {
@@ -88,6 +88,7 @@
     border-radius: 15px;
     /* align-items: center; */
     padding: 40px;
+    margin-left: 20px;
 }
 
 .collection_Small_box {
