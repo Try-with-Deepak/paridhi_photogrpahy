@@ -87,8 +87,8 @@
     height: 100%;
     border-radius: 15px;
     /* align-items: center; */
-    /* padding: 40px;
-    margin-left: 20px; */
+     padding: 40px;
+    /* margin-left: 20px;  */
 }
 
 .collection_Small_box {
@@ -111,8 +111,8 @@
 }
 
 .collection_image {
-    width: 260px;
-    height: 280px;
+    width: 320px;
+    height: 350px;
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
@@ -137,6 +137,7 @@
 /* TOP_FOOTER_SECTION */
 .top_footer_section {
     background-image: #F1FFFF;
+    padding: 15px;
 }
 
 .top_footer_section p {
