@@ -78,7 +78,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow: auto;
-    /* padding: 150px !important; */
+    padding: 150px !important;
 }
 
 .collection_big_box {
