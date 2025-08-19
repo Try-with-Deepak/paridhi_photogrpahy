@@ -87,8 +87,8 @@
     height: 100%;
     border-radius: 15px;
     /* align-items: center; */
-    padding: 40px;
-    margin-left: 20px;
+    /* padding: 40px;
+    margin-left: 20px; */
 }
 
 .collection_Small_box {
@@ -111,20 +111,21 @@
 }
 
 .collection_image {
-    width: 250px;
+    width: 260px;
     height: 280px;
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
     overflow: hidden;
+     border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .collection_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   
     transition: all ease-in-out 1s;
 }
 
