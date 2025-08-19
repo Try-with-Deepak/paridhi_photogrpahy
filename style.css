@@ -78,7 +78,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow: auto;
-    padding: 150px !important;
+    padding: 150px;
 }
 
 .collection_big_box {
@@ -97,8 +97,10 @@
     background: #fff;
     transition: all ease-in-out 0.2s;
     cursor: pointer;
-    margin: 10px 0px;
-    padding: 10px;
+    /* margin: 10px 0px;
+    padding: 10px; */
+      width: 500px;
+    height: 600px;
 }
 
 .collection_Small_box:hover {
@@ -112,7 +114,7 @@
     height: 280px;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 20px;
+    /* margin: 0 auto 20px; */
     overflow: hidden;
 }
 
