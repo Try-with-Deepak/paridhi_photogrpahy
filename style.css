@@ -78,7 +78,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow: auto;
-    padding: 150px !important;
+    /* padding: 150px !important; */
 }
 
 .collection_big_box {
@@ -87,7 +87,7 @@
     height: 100%;
     border-radius: 15px;
     /* align-items: center; */
-     padding: 40px;
+     /* padding: 40px; */
     /* margin-left: 20px;  */
 }
 
@@ -182,4 +182,19 @@
 .footer_section {
     background-color: #000000;
     color: white;
+}
+
+
+
+
+
+.test{
+   border: #E9B700 2px solid;
+    /* padding: 50PX; */
+    /* background-color: aqua; */
+}
+
+.HELLO{
+    /* padding: 150PX; */
+     /* background-color: #581F1F; */
 }
