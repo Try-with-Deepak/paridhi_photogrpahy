@@ -1,40 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gallery</title>
-    <link rel="stylesheet" href="gallery.css">
-</head>
+    <title>Gallery</title>
+    <link href="gallery.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+
+
+
 <body>
+    <!-- HEADER_SECTION -->
+    <header>
+        <div class="container-fluid">
+            <div class="row head_section text-center">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <a href="tel:9263559268"><i class="fa fa-phone"></i> &nbsp;9263559268</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <a href="mailto:email@deepak7033511325"><i class="fa fa-envelope"></i>
+                        &nbsp;abc101@gmail.com</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <a href="book.html">BOOK NOW</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <a href="#">FEEDBACK</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- PHOTOGRAPHY_SECTION -->
     <section>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row photography_section text-center">
                 <div class="col">
-                    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel Gallery Image</title>
-    <link rel="stylesheet" href="gallery.css">
-</head>
-<body>
-    <div class="gallery">
-        <span style="--i:1"><img src="Collection_Img/coll_1.jpg" alt=""></span>
-        <span style="--i:2"><img src="Collection_Img/coll_11.jpg" alt=""></span>
-        <span style="--i:3"><img src="Collection_Img/coll_13.jpg" alt=""></span>
-        <span style="--i:4"><img src="Collection_Img/coll_2.jpg" alt=""></span>
-        <span style="--i:5"><img src="Collection_Img/coll_16.jpg" alt=""></span>
-        <span style="--i:6"><img src="Collection_Img/coll_17.jpg" alt=""></span>
-        <span style="--i:7"><img src="Collection_Img/coll_5.jpg" alt=""></span>
-        <span style="--i:8"><img src="Collection_Img/coll_3.jpg" alt=""></span>
-    </div>
-</body>
-</html>
+                    <h1><i class="fa fa-camera"></i> Paridhi&nbsp;Photography </h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MENU_SECTION -->
+    <section>
+        <div class="container-fluid">
+            <div class="row menu_section text-center">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse menu_list " id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Portfolio
+                                        </a>
+                                        <ul class="dropdown-menu Portfolio">
+                                            <li><a class="dropdown-item" href="#">Weddings 💍</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#">Portraits 📸</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#">Events 🎉</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#">Cultural & Traditional 🪔</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="#">Candid Moments 🤍</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cart</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn " type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- GALLERY_SECTION -->
+    <section id="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="gallery-section-headline">Gallery</div>
+                <div class="gallery-preview-container">
+                    <img class="gallery-preview-image" src="Collection_Img/coll_10.jpg">
+                    <button class="gallery-btn prev-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                            <path d="M44 8 L20 32 L44 56" stroke="white" stroke-width="8" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="gallery-btn next-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                            <path d="M20 8 L44 32 L20 56" stroke="white" stroke-width="8" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="thumbnails-slider">
+                    <!-- Generated by js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ROTATE_IMAGE_SECTION -->
+    <section>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col main">
+                    <div class="gallery">
+                        <span style="--i:1"><img src="https://i.ibb.co/sm8mdMP/pic16.jpg" alt=""></span>
+                        <span style="--i:2"><img src="https://i.ibb.co/Gnq2gJb/pic2.jpg" alt=""></span>
+                        <span style="--i:3"><img src="https://i.ibb.co/vDpCDSY/pic13.jpg" alt=""></span>
+                        <span style="--i:4"><img src="https://i.ibb.co/f0Yt9bM/pic4.jpg" alt=""></span>
+                        <span style="--i:5"><img src="https://i.ibb.co/g4hxBfz/pic5.jpg" alt=""></span>
+                        <span style="--i:6"><img src="https://i.ibb.co/FgdgX20/pic10.jpg" alt=""></span>
+                        <span style="--i:7"><img src="https://i.ibb.co/kDjJwhB/pic7.jpg" alt=""></span>
+                        <span style="--i:8"><img src="https://i.ibb.co/9n7mHQt/pic8.jpg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YOUR_GALLERY_IMAGE -->
+    <Section id="gallery_images">
+        <div class="container-fluid">
+            <div class="row hi">
+                <div class="col hello">
+
+                    <h1>Your Image Gallery</h1>
+                    <div class="controls">
+                        <button id="upload-file">Upload File</button>
+                        <button id="upload-link">Upload from Link</button>
+                    </div>
+                    <div id="gallery-container_images">
+                        <img src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Mirror Lake Reflecting Wooden House in Middle of Lake Overlooking Mountain Ranges" />
+                        <img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Dock Under Cloudy Sky in Front of Mountain" />
+                        <img src="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Black Mountains Under the Stars at Nighttime" />
+                        <img src="https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Green Leafed Tree Beside Body of Water during Daytime" />
+                        <img src="https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Silhouette of Trees at Sunset" />
+                        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Green Tree" />
+                        <img src="https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Pink Flowers Near Mountain Covered by Snow" />
+                        <img src="https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Green Field" />
+                        <img src="https://images.pexels.com/photos/70365/forest-sunbeams-trees-sunlight-70365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            alt="Tree With Brunch and Green Leaves during Sunset" />
+                    </div>
+
+
+                    <dialog id="preview-dialog">
+                        <figure>
+                            <img id="preview-image" src="" alt="" />
+                            <figcaption id="preview-caption"></figcaption>
+                        </figure>
+                        <button id="preview-edit">Edit Image</button>
+                        <button id="preview-delete">Delete Image</button>
+                    </dialog>
+
+                    <dialog id="upload-dialog">
+                        <form method="dialog">
+                            <h2>Upload your file:</h2>
+                            <img id="upload-preview" src="" alt="" />
+                            <input id="upload-file-select" type="file" name="image" accept="image/*"
+                                style="display: none" />
+                            <label for="upload-name">Image Name:</label>
+                            <input id="upload-name" type="text" name="name" />
+                            <label for="upload-caption">Caption:</label>
+                            <input id="upload-caption" type="text" name="caption" />
+                            <label for="upload-alt">Alt Text:</label>
+                            <input id="upload-alt" type="text" name="alt" />
+                            <input id="upload-submit" type="submit" name="Submit" value="Submit" />
+                        </form>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- SLIDER_GALLERY -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TOP_FOOTER_SECTION -->
+    <section>
+    <div class="container-fluid">
+      <div class="row  top_footer_section text-center">
+        <div class="col-lg-3 col-md-6 col-12">
+          <h2>About us</h2>
+          <p>
+            📸Paridhi Photography – Capturing Moments, Creating Memories.
+            Located in the heart of Bokaro Steel City, Paridhi Photography is where passion meets precision
+            behind the lens. Known for turning fleeting moments into timeless treasures.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 top_footer_address ">
+          <h2>Official Address</h2>
+          <ul>
+            <li>
+              <i class="fa fa-map-marker"></i>Address:<a href="https://www.google.com/maps/dir/?api=1&destination=Sector-04+Near+The+Bokaro+Mall+Bokaro+Steel+City+827013">Sector- 04,
+                Bokaro Steel City 827013 </a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>&nbsp;Gmail:<a href="mailto:email@deepak7033511325">abc101@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>Mobile:<a href="tel:9263559268">9263559268, 9263559268</a>
+            </li>
+            <li>
+              <i class="fa fa-whatsapp "></i>&nbsp;Whatsapp:<a href="https://wa.me/9263559268">Chat with me.</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 top_footer_menu">
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT Us</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT US </a></li>
+            <li id="cart"><a href="#"><i class="fa"></i> CART</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 top_footer_map">
+          <h2> How to Reach us</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233871.34788623048!2d85.95430829619065!3d23.667380545973735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4230341010871%3A0xf89f21d9001d5036!2sBokaro%20Steel%20City%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1751283621777!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- FOOTER_SECTION -->
+     <footer>
+    <div class="container-fluid footer_section">
+      <div class="row text-center">
+        <p> Design & Developed By :Deepak Kumar Under The Guidance Of Kunal Mahto
+          <br>
+          <marquee behavior="right" loop="3" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()" width="90%">&copy; 2025 Paridhi Photography. All rights reserved.
+          </marquee>
+        </p>
+
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- GALLERY_SECTION-JS -->
+    <script>
+        // Gallery Images Array
+        const gallery_images = [
+            "collection_img/coll_1.jpg",
+            "collection_img/coll_2.jpg",
+            "collection_img/coll_3.jpg",
+            "collection_img/coll_4.jpg",
+            "collection_img/coll_5.jpg",
+            "collection_img/coll_6.jpg",
+            "collection_img/coll_7.jpg",
+            "collection_img/coll_8.jpg",
+            "collection_img/coll_9.jpg",
+            //You Can add more Pictures
+        ];
+
+        let currentIndex = 0;
+        const previewImg = document.querySelector('.gallery-preview-container img');
+        const thumbnailsContainer = document.querySelector('.thumbnails-slider');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        function generateThumbnails() {
+            gallery_images.forEach((imgSrc, index) => {
+                const thumbnail = document.createElement('div');
+                thumbnail.className = 'thumbnail';
+                if (index === currentIndex) thumbnail.classList.add('active');
+
+                const img = document.createElement('img');
+                img.src = imgSrc;
+                img.alt = `Thumbnail ${index + 1}`;
+
+                thumbnail.appendChild(img);
+                thumbnailsContainer.appendChild(thumbnail);
+
+                thumbnail.addEventListener('click', () => {
+                    changeImage(index);
+                });
+            });
+        }
+
+        function changeImage(index) {
+            currentIndex = index;
+            const currentImage = gallery_images[currentIndex];
+
+            previewImg.src = currentImage;
+
+            document.querySelectorAll('.thumbnail').forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === currentIndex);
+            });
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + gallery_images.length) % gallery_images.length;
+            changeImage(currentIndex);
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % gallery_images.length;
+            changeImage(currentIndex);
+        }
+
+        prevBtn.addEventListener('click', prevImage);
+        nextBtn.addEventListener('click', nextImage);
+
+        generateThumbnails();
+    </script>
+
+    <!--YOUR_GALLERY_IMAGE-JS -->
+    <script>
+        const uploadFileBtn = document.querySelector("#upload-file");
+        const uploadLinkBtn = document.querySelector("#upload-link");
+        const galleryContainer = document.querySelector("#gallery-container");
+        const uploadDialog = document.querySelector("#upload-dialog");
+        const fileSelect = uploadDialog.querySelector("#upload-file-select");
+        const uploadPreview = uploadDialog.querySelector("#upload-preview");
+        const uploadName = uploadDialog.querySelector("#upload-name");
+        const uploadSubmit = uploadDialog.querySelector("#upload-submit");
+
+        /*
+          Opens the upload dialog with the given image.
+        */
+        function openUploadDialog(image, name) {
+            switch (typeof image) {
+                case "string":
+                    if (image === "") {
+                        return;
+                    }
+                    uploadPreview.src = image;
+                    break;
+                default:
+                    return;
+            }
+
+            if (name) {
+                uploadName.value = name;
+            }
+
+            uploadDialog.showModal();
+        }
+
+        uploadSubmit.addEventListener("click", () => {
+            const newImage = document.createElement("img");
+            newImage.src = uploadPreview.src;
+            newImage.alt = "";
+            galleryContainer.appendChild(newImage);
+        });
+
+        fileSelect.addEventListener("change", () => {
+            const reader = new FileReader();
+            reader.readAsDataURL(fileSelect.files[0]);
+            reader.onload = () => {
+                openUploadDialog(reader.result, fileSelect.files[0].name);
+            };
+            reader.onerror = (err) => {
+                console.error(err);
+            };
+        });
+
+        uploadFileBtn.addEventListener("click", async () => {
+            fileSelect.click();
+        });
+
+        uploadLinkBtn.addEventListener("click", () => {
+            const imgLink = prompt("Enter your image link:");
+            if (imgLink) {
+                uploadPreview.src = imgLink;
+                uploadPreview.onload = () => {
+                    uploadPreview.onload = null;
+                    uploadPreview.onerror = null;
+                    openUploadDialog(imgLink);
+                };
+                uploadPreview.onerror = () => {
+                    uploadPreview.onload = null;
+                    uploadPreview.onerror = null;
+                    console.error("This is not a valid image.");
+                };
+            }
+        });
+
+    </script>
+
 </body>
+
 </html>
