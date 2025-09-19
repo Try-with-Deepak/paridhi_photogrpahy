@@ -54,7 +54,7 @@
 .Portfolio>li a:hover {
     color: red;
     background-color: rgba(240, 255, 255, 0.914);
-    box-shadow:0px 5px 10px 0px rgba(72, 10, 10, 0.915);
+    box-shadow: 0px 5px 10px 0px rgba(72, 10, 10, 0.915);
 }
 
 .menu_list form input:focus {
@@ -80,10 +80,11 @@
 /* COLLECTION_SECTION */
 
 .h_2_collection {
-    font-family: "Nosifer", sans-serif;
-    /* font-weight: 400;
-  font-style:normal; */
-    color: black
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* color: #E9B700; */
+
 }
 
 .collection_overflow {
@@ -157,6 +158,15 @@
     text-align: left;
 }
 
+.top_footer_section>div>h2 {
+    font-size: 28px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
 .top_footer_address ul li,
 .top_footer_menu ul li {
     list-style: none;
@@ -171,7 +181,7 @@
 }
 
 .top_footer_menu ul li {
-    padding-left: 70px;
+    padding-left: 30px;
 }
 
 .top_footer_menu ul li a {
