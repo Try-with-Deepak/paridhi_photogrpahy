@@ -4,13 +4,8 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
    .top_footer_menu ul li {
-    padding-left: 105px;
-}
-}
-@media screen and (min-width: 768px), (max-width: 1024px) {
-  .top_footer_menu ul li {
     padding-left: 105px;
 }
 }
