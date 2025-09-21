@@ -154,11 +154,12 @@
 .top_footer_section p {
     color: black;
     font-size: 18px;
-    text-align: center;
-    text-align: left;
+    text-align:justify;
+    padding: 0px 12px;
 }
 
 .top_footer_section>div>h2 {
+    padding-top: 5px;
     font-size: 28px;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
@@ -170,7 +171,7 @@
 .top_footer_address ul li,
 .top_footer_menu ul li {
     list-style: none;
-    text-align: left;
+    text-align:justify;
     font-size: 18px;
 }
 
