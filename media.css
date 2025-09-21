@@ -5,10 +5,10 @@
 }
 @media screen and (max-width: 576px){
     .top_footer_menu ul li {
-    padding-left: 50px;
+    padding-left: 60px;
 }
 }
-@media screen and (max-width: 768px),(max-width: 992px)  {
+@media screen and (max-width: 768px){
    .top_footer_menu ul li {
     padding-left: 120px;
 }
