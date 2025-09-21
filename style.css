@@ -171,7 +171,7 @@
 .top_footer_address ul li,
 .top_footer_menu ul li {
     list-style: none;
-    text-align:justify;
+    text-align:left;
     font-size: 18px;
 }
 
@@ -202,6 +202,7 @@
 /* FOOTER_SECTION */
 
 .footer_section {
+    padding-top:5px;
     background-color: #000000;
     color: white;
 }
