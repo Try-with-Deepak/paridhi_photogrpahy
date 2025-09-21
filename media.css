@@ -3,14 +3,10 @@
         padding: 0px !important;
     }
 }
-@media screen and (max-width: 576px){
-    .top_footer_menu ul li {
-    padding-left: 60px;
-}
-}
+
 @media screen and (max-width: 768px),(max-width: 992px){
    .top_footer_menu ul li {
-    padding-left: 120px;
+    padding-left: 105px;
 }
 }
 
