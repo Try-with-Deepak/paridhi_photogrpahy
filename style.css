@@ -23,10 +23,12 @@
 }
 
 /* PHOTOGRAPHY_SECTION */
-.photography_section {
+.photography_section{
     background-color: #581F1F;
-    padding: 10px;
-    color: white;
+    padding: 10px;   
+}
+.photography_section  h1{
+color: white;
 }
 
 /* MENU_SECTION */
@@ -76,15 +78,12 @@
     transition: all 0.2s ease-in-out;
 }
 
-
 /* COLLECTION_SECTION */
-
 .h_2_collection {
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
     /* color: #E9B700; */
-
 }
 
 .collection_overflow {
@@ -113,7 +112,6 @@
     margin: 10px 0px;
     padding: 10px;
     overflow: hidden;
-
 }
 
 .collection_Small_box:hover {
