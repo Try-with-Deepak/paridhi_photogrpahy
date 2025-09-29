@@ -87,7 +87,7 @@ figure:before {
 
 
 .about_para_1 {
-  padding: 70px 70px 0px 0px!important;
+  padding: 70px 70px 0px 0px !important;
   font-size: 20px;
   text-align: justify;
   font-family: "Pacifico", cursive;
@@ -131,42 +131,35 @@ figure:before {
   font-size: 1.2rem;
   padding: 20px 100px;
   text-align: justify;
-
 }
 
-
-
-
-
-
-
-
-
-
-.hello{
-  padding: 150px;
-  border: 1px  red solid;
- 
+/* OUR TEAM EXPERTS */
+.delicious {
+  /* border: red 2px solid; */
+  /* padding: 100px; */
+  margin: 0 auto;
+  padding: 10px 0px 50px 0px;
 }
 
-/* .hello>.col{
-  padding: 40px;
-   border: 4px  rgb(19, 148, 62) solid;
-   
-} */
-
-.col{
-  
-   border: 4px  rgb(19, 148, 62) solid;
+.delicious>.col {
+  border: rgb(255, 0, 0) 2px solid;
+  background: grey;
  
 
 }
-.card{
-  border: 4px  rgb(153, 47, 12) solid;
-    border-radius: 50%;
-}
-.images{
+
+.delicious>.col>.bigger {
+  width: 250px;
+  height: 250px;
+  border: rgb(0, 255, 72) 2px solid;
+  overflow: hidden;
+  margin: 0 auto;
   border-radius: 50%;
-  background: #ff5252;
-  border:2px sollid green
+}
+
+.delicious>.col>.bigger img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
