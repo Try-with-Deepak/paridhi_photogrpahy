@@ -205,7 +205,7 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_1.jpg" alt="Expert Chefs">
+              <img src="Collection_Img/coll_1.jpg" alt="">
             </div>
             <h5 class="text-danger">Behind the Lens</h5>
             <p>capurting creativity from every angle.</p>
@@ -214,7 +214,7 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_2.jpg" alt="Fresh Ingredients">
+              <img src="Collection_Img/coll_2.jpg" alt="F">
             </div>
             <h5 class="text-warning">Seaside Moments</h5>
             <p>Freshness as pure as the ocean breeze.</p>
@@ -223,7 +223,7 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_3.jpg" alt="Fast Delivery">
+              <img src="Collection_Img/coll_3.jpg" alt="">
             </div>
             <h5 class="text-primary">Timeless Service</h5>
             <p>Delivering with speed and elegance.</p>
@@ -232,7 +232,7 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_4.jpg" alt="Fresh Ingredients">
+              <img src="Collection_Img/coll_4.jpg" alt="">
             </div>
             <h5 class="text-warning">Engagement Moments</h5>
             <p>Celebrating love with timeless memories .</p>
@@ -241,7 +241,7 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_5.jpg" alt="Fresh Ingredients">
+              <img src="Collection_Img/coll_5.jpg" alt="">
             </div>
             <h5 class="text-warning">Festivals Lights</h5>
             <p>Brightening every occassion with a magical glow.</p>
@@ -250,13 +250,19 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
-              <img src="Collection_Img/coll_6.jpg" alt="Fresh Ingredients">
+              <img src="Collection_Img/coll_6.jpg" alt="">
             </div>
             <h5 class="text-warning">Joyful Childhood</h5>
             <p>Capturing innocence wrapped in pure smiles.</p>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6 col-12">
+        
+        <span><button id="btn" onclick="fun()">Read Me!</button></span>
+        <section>
+          <div class="container-fluid">
+       <div class="row"  id="jsr">   <!-- script -->
+        
+         <div class="col-lg-4 col-md-6 col-12">
           <div class="collection_Small_box">
             <div class="collection_image">
               <img src="Collection_Img/coll_7.jpg" alt="Fresh Ingredients">
@@ -390,7 +396,13 @@
             <h5 class="text-warning">Fresh Ingredients</h5>
             <p>We use the freshest ingredients everyday.</p>
           </div>
-        </div> -->
+        </div> 
+        </div>
+        </div>
+        </section>
+        
+
+
       </div>
     </div>
   </section>
@@ -406,7 +418,7 @@
             behind the lens. Known for turning fleeting moments into timeless treasures.
           </p>
         </div>
-        <div class="col-lg-3 col-md-6 col-12 top_footer_address ">
+        <div class="col-lg-3 col-md-6 col-12 top_footer_address">
           <h2>Official Address</h2>
           <ul>
             <li>
@@ -480,6 +492,23 @@
 
     })
   </script>
+
+
+
+
+    <script>
+        function fun() {
+            if (document.getElementById("jsr").style.display === "block") {
+                document.getElementById("jsr").style.display = "none";
+                document.getElementById("btn").innerHTML = "view More!";
+            }
+            else {
+                document.getElementById("jsr").style.display = "block";
+                document.getElementById("btn").innerHTML = "Read Me!";
+            }
+
+        }
+    </script>
 </body>
 
 </html>
