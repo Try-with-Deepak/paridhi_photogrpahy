@@ -116,7 +116,7 @@
 
 /* OUR TEAM EXPERTS */
 .Team_experts_heading {
-  padding-top: 20px;
+  padding: 10px 0px ;
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -124,8 +124,8 @@
   font-variation-settings: "wdth" 100;
 }
 
-.Team_experts {
- padding: 30px 0px 30px 70px;
+.Team_experts{
+  justify-content: center;
 }
 
 .Team_experts>.col {
@@ -212,3 +212,15 @@
   background-color: grey;
 }
 
+/* ACCORDIN_SECTION */
+
+.accordion>.accordion-button:focus{
+  outline: none;
+
+}
+
+
+.Accordin_section{
+  justify-content: center;
+  padding: 30px 0px 20px 0px;
+}
