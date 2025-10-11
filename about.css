@@ -214,13 +214,15 @@
 
 /* ACCORDIN_SECTION */
 
-.accordion>.accordion-button:focus{
-  outline: none;
-
-}
-
-
 .Accordin_section{
   justify-content: center;
   padding: 30px 0px 20px 0px;
+}
+
+.accordion-button{
+  color: black !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important; /* Change glow color */
 }
