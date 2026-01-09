@@ -189,7 +189,9 @@
 .Team_experts>.col>.bigger_box::after{
   content:"";
   position:absolute;
- 
+  /* inset:4px;
+  background:transparent;        /* same as .col background */
+ /* border-radius:50%; */
 }
 
 /* Image */
@@ -250,5 +252,19 @@
   background-color: grey;
 }
 
+/* ACCORDIN_SECTION */
+
+.Accordin_section{
+  justify-content: center;
+  padding: 30px 0px 20px 0px;
+}
+
+.accordion-button{
+  color: black !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important; /* Change glow color */
+}
 
 
