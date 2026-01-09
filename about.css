@@ -115,6 +115,7 @@
 }
 
 /* OUR TEAM EXPERTS */
+
 .Team_experts_heading {
   padding: 10px 0px ;
   font-family: "Inconsolata", monospace;
@@ -131,7 +132,6 @@
 .Team_experts>.col {
   width: 300px;
   height: 350px;
-  /* border: rgb(255, 0, 0) 2px solid; */
   background: grey;
   padding: 30px 10px;
   margin-bottom: 20px;
@@ -141,6 +141,7 @@
 }
 
 .Team_experts>.col>.bigger_box {
+  position:relative;
   width: 150px;
   height: 150px;
   border: #E97000 2px solid;
@@ -167,6 +168,45 @@
   object-fit: cover;
 }
 
+/* Rotating multi-color ring */
+.Team_experts>.col>.bigger_box::before{
+  content:"";
+  position:absolute;
+  inset:-4px;
+  background:conic-gradient(
+      #ff004c,
+      #ffb300,
+      #00ffcc,
+      #0066ff,
+      #b000ff,
+      #ff004c
+  );
+  border-radius:50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Mask layer (background color of card) */
+.Team_experts>.col>.bigger_box::after{
+  content:"";
+  position:absolute;
+ 
+}
+
+/* Image */
+.Team_experts>.col>.bigger_box img{
+  position:absolute;
+  inset:3px;
+  width:calc(100% - 6px);
+  height:calc(100% - 6px);
+  border-radius:50%;
+} 
+
+/* Animation */
+@keyframes spin{
+  from{ transform:rotate(0deg); }
+  to{ transform:rotate(360deg); }
+}
+
 .Follow {
   padding: 5px 15px;
   border-radius: 10px;
@@ -179,8 +219,6 @@
 .Follow:hover {
   background-color: grey;
   color: black;
-  border: 1px solid black;
-  border: none;
   cursor: pointer;
 }
 
@@ -212,17 +250,5 @@
   background-color: grey;
 }
 
-/* ACCORDIN_SECTION */
 
-.Accordin_section{
-  justify-content: center;
-  padding: 30px 0px 20px 0px;
-}
 
-.accordion-button{
-  color: black !important;
-}
-
-.accordion-button:focus {
-  box-shadow: none !important; /* Change glow color */
-}

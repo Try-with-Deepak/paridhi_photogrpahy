@@ -150,19 +150,23 @@ color: white;
 
 .top_footer_section p {
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     text-align:justify;
     padding: 0px 0px 0px 12px;
+    font-family: "Roslindale Condensed Testing, sans-serif";
+
 }
 
 .top_footer_section>div>h2 {
     padding-top: 5px;
-    font-size: 28px;
-    font-family: "Inconsolata", monospace;
+    font-size: 29px;
+    /* font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: "wdth" 100; */
+    font-family: "Roslindale Condensed Testing, sans-serif";
+    
 }
 
 .top_footer_address ul li,
